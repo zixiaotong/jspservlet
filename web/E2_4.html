@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+	 <form action="/jspservlet/E24Servlet" method="get">
+    <table>
+      <tr>
+        <td>用户名：</td>
+        <td><input type="text" name="username"/></td>       
+      </tr>
+      <tr>
+        <td>密  码：</td>
+        <td><input type="password" name="password"/></td>       
+      </tr>
+      <tr>
+        <td>爱好：</td>
+        <td>
+            <input type="checkbox" name="hobby" value="eat"/>吃饭
+            <input type="checkbox" name="hobby" value="sleep"/>睡觉        
+            <input type="checkbox" name="hobby" value="play"/>玩游戏        
+        </td>       
+      </tr>     
+      <tr>
+        <td><input type="submit" value="提交"/></td>
+        <td><input type="reset" name="取消"/></td>       
+      </tr>  
+    </table>      
+   </form>
+</body>
+</html>
