@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Context reloadable = "true">
+<Resource
+      name="jdbc/testDS"                    
+      type="javax.sql.DataSource"
+      driverClassName="com.mysql.jdbc.Driver"
+      url="jdbc:mysql://47.98.146.184:3306/test"
+      maxIdle="2"
+      username="root"
+      password="abc123"
+      maxWait="5000"
+      maxActive="4" />
+</Context>
