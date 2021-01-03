@@ -57,7 +57,7 @@ public class ShoppingCartServlet extends HttpServlet {
             session.setAttribute("product", product);
             response.sendRedirect("/jspservlet/day1220/showProduct.jsp");
         } else {
-            // 未查到商品
+            // 未锟介到锟斤拷品
         }
     }
 
