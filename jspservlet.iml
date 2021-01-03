@@ -20,5 +20,9 @@
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="library" scope="PROVIDED" name="Tomcat 8.0.23" level="application_server_libraries" />
+    <orderEntry type="library" name="taglibs-standard-impl-1.2.5" level="project" />
+    <orderEntry type="library" name="taglibs-standard-spec-1.2.5" level="project" />
+    <orderEntry type="library" name="mysql-connector-java-8.0.20" level="project" />
+    <orderEntry type="library" name="mysql-connector-java-5.1.13-bin" level="project" />
   </component>
 </module>
